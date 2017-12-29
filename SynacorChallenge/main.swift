@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+let vm = VM(binary: try! Data(contentsOf: URL(fileURLWithPath: "/Users/jshier/Desktop/Code/SynacorChallenge/SynacorChallenge/synacor-challenge/challenge.bin")))
+vm.run()
 

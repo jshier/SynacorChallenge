@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31309D9B1FF5955E002452A4 /* OpCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31309D9A1FF5955E002452A4 /* OpCode.swift */; };
+		31309D9D1FF59626002452A4 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31309D9C1FF59626002452A4 /* VM.swift */; };
 		31FBC7E01FF590A00002965B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FBC7DF1FF590A00002965B /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31309D991FF591EC002452A4 /* arch-spec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "arch-spec"; path = "synacor-challenge/arch-spec"; sourceTree = "<group>"; };
+		31309D9A1FF5955E002452A4 /* OpCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpCode.swift; sourceTree = "<group>"; };
+		31309D9C1FF59626002452A4 /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 		31FBC7DC1FF590A00002965B /* SynacorChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SynacorChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FBC7DF1FF590A00002965B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +62,10 @@
 		31FBC7DE1FF590A00002965B /* SynacorChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				31309D991FF591EC002452A4 /* arch-spec */,
 				31FBC7DF1FF590A00002965B /* main.swift */,
+				31309D9A1FF5955E002452A4 /* OpCode.swift */,
+				31309D9C1FF59626002452A4 /* VM.swift */,
 			);
 			path = SynacorChallenge;
 			sourceTree = "<group>";
@@ -121,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FBC7E01FF590A00002965B /* main.swift in Sources */,
+				31309D9B1FF5955E002452A4 /* OpCode.swift in Sources */,
+				31309D9D1FF59626002452A4 /* VM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
